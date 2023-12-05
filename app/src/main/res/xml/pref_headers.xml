@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:fragment="com.herlangga.droidcafe.SettingsActivity$GeneralFragment"
+        android:icon="@drawable/ic_status_white"
+        android:title="@string/pref_header_general" />
+
+    <Preference
+        android:fragment="com.herlangga.droidcafe.SettingsActivity$NotificationsFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+
+    <Preference
+        android:fragment="com.herlangga.droidcafe.SettingsActivity$SyncFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_account" />
+</PreferenceScreen>
